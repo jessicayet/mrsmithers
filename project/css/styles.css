@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+}
+body
+{background-color: white;
+padding: 0;
+  margin: 200;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Catamaran', sans-serif;
+}
+
+h1, h2 {
+    font-family: "Open Sans", serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0;
+    padding-left: 40px
+}
+
+blockquote {
+  clear: both;
+}
+
+.profile-image {
+  float: left;
+  padding-right: 30px;
+}
+
+.move-right {
+  float:right;
+  padding-right:30px;
+  margin:0px;
+}
+
+.home {
+  background: url(../images/background-7.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.page-wrap {
+  min-height: 100%;
+  margin-bottom: -40px; /* must be the same height as footer */
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+footer,
+.page-wrap:after {
+  height: 40px; /* however tall you want the footer to be */
+}
+
+footer {
+  background:lightgrey;
+  text-align: center;
+  padding: 1px;
+}
+
+form {
+  width: 400px;
+}
+input,
+textarea {
+  border: 1px solid #BF6D50;
+  width: 400px;
+  margin-bottom: 10px;
+}
+input {
+  height: 20px;
+}
+textarea {
+  height: 100px;
+}
+button {
+  background: #BF6D50;
+  border: none;
+  padding: 10px 40px;
+  font-size: 16px;
+}
